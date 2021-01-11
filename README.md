@@ -5,4 +5,5 @@ This is a repository meant to store references in-regards to Computer Science an
 
 # Usage Updates
 As of 11/2020:
-- Still toying with using this readme.md to monitor the references or HTML
+- Still toying with using this readme.md to monitor the references or GitHub Pages
+
