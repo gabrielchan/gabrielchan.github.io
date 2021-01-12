@@ -1,6 +1,8 @@
-Gabriel's Library
+# Gabriel's Library
 
 This is a list of documentation, books, articles, blog posts and other forms of content that I found interesting, helpful, and/or educational. 
+
+## Organization System
 
 The content will be tagged as follows:
 (Domain-Type) Link
@@ -22,7 +24,7 @@ Types:
 - REF: Technical reference
 - THT: Good thought piece
 
-
+# References
 ## January 2021
 - (ML-EDU) [Neural Networks from Scratch in Python by Kie Codes][https://www.youtube.com/watch?v=51EoNgwoaTo]
 - (COMM-EDU) Never Split the Difference by Chris Voss
