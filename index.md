@@ -25,6 +25,9 @@ Types:
 
 # References
 ## January 2021
+- (DE-THT) [How to Become a Data Engineer in 2021](https://khashtamov.com/en/how-to-become-a-data-engineer/)
+  - **Context**: Found this on /r/dataengineering
+  - **Helped**: Although this isn't a bible of what is needed to be a DE, I think its a good reference of tools, languages and skillsets that are generally required paired with reccomended teaching tools
 - (ML-EDU) [Neural Networks from Scratch in Python by Kie Codes](https://www.youtube.com/watch?v=51EoNgwoaTo)
   - **Context**:
   - **Helped**:
