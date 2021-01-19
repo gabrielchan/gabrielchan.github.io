@@ -25,6 +25,9 @@ Types:
 
 # References
 ## January 2021
+- (GEN-EDU) [List Comprehension in Python](=https://medium.com/better-programming/list-comprehension-in-python-8895a785550b)
+  - **Context**: Needed to understand why, given some list_1 that contains `''`, `list_2 = [x for x in list_1 if x]` removes the `''`
+  - **Helped**: Gave a good overview of how to breakdown the list comprehension syntax into a standard for loop. This syntax essentially looks for if x contains any value, then it returns true. Thus it "adds" the value from list_1 to list_2
 - (DE-REF) [Why PyCharm Warning for SparkSQL Column Parameter Can Be Ignored](https://stackoverflow.com/questions/33375535/expected-type-unionstr-bytearray-got-int-instead-warning-in-write-metho)
   - **Context**: When trying to do something like `df1.select("id").join(df2, df1.id == df2.id)`, PyCharm returns a error along the lines of `Expected Type Union[...], got 'bool' instead`
   - **Helped**: This post indicated that PyCharm attempts to guess (based on the limited information its provided in the IDE) to guess if the provided inputs are of correct type. Because directly calling the column like `df1.id` is some "intelligent magic" that PySpark does at run-time, PyCharm doesn't know that `df1.id == df2.id` is a valid input for PySpark to interpret. Therefore it spits a warning
