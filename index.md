@@ -25,6 +25,9 @@ Types:
 
 # References
 ## January 2021
+- (DE-EDU) [High-Level Overview of RDD Transformations vs. Action Operations](https://medium.com/@aristo_alex/how-apache-sparks-transformations-and-action-works-ceb0d03b00d0)
+  - **Context**: Refresher on how RDD operations work
+  - **Helped**: Overview on how Transformations are when we 'change an RDD' into a new one within each individual executor, Actions have executors compute a result and return it to the driver. It also reviews that Transformations are lazy. Transformations will not be done until an action is called, thus all transformations before it will be done such that the action can be performed
 - (GEN-EDU) [List Comprehension in Python](=https://medium.com/better-programming/list-comprehension-in-python-8895a785550b)
   - **Context**: Needed to understand why, given some list_1 that contains `''`, `list_2 = [x for x in list_1 if x]` removes the `''`
   - **Helped**: Gave a good overview of how to breakdown the list comprehension syntax into a standard for loop. This syntax essentially looks for if x contains any value, then it returns true. Thus it "adds" the value from list_1 to list_2
