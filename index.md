@@ -25,6 +25,9 @@ Types:
 
 # References
 ## January 2021
+- (DE-REF) [Cheapest Spark RDD Action Operation (hint: it's `first()` but it might not always be what you need)](https://stackoverflow.com/questions/42272800/what-is-best-or-most-lightweight-efficient-cheapest-rdd-action-to-perform-on-hug#:~:text=1%20Answer&text=answer%20was%20accepted%E2%80%A6-,rdd.,materialize%20all%20partitions%20is%20rdd.)
+  -**Context**: Needed to conduct an action to increment a accumulator, but wanted to not use something as expensive as `collect()` or `count()`
+  -**Helped**: Showed me `first()` but also warned of why its not always a one-size-fit all cheap operation
 - (DE-EDU) [High-Level Overview of RDD Transformations vs. Action Operations](https://medium.com/@aristo_alex/how-apache-sparks-transformations-and-action-works-ceb0d03b00d0)
   - **Context**: Refresher on how RDD operations work
   - **Helped**: Overview on how Transformations are when we 'change an RDD' into a new one within each individual executor, Actions have executors compute a result and return it to the driver. It also reviews that Transformations are lazy. Transformations will not be done until an action is called, thus all transformations before it will be done such that the action can be performed
