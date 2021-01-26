@@ -25,6 +25,9 @@ Types:
 
 # References
 ## January 2021
+- (DE-EDU) [Spark - Introduciton to Partitioning](https://www.talend.com/blog/2018/03/05/intro-apache-spark-partitioning-need-know/)
+  - **Context**: Wanted to understand the default partitioning behaviour and why Spark isn't automatically optimal
+  - **Helped**: According to the above documentation, if left alone, Spark may distribute the data in a skewed way across its executors, causing an overloaded executor to become a bottle neck. This leads to an inefficient program
 - (GEN-EDU) [Why Use Docker? By ActiveLAMP](https://www.youtube.com/watch?v=SYozbyvsP8A)
   - **Context**: Need to understand what Docker is, what it's difference is with kubernetes, and why it's important?
   - **Helped**: Explains why Docker is useful in a world where scalability is important. Docker gives you the ability to containerize your services and provide easy deployment and management of them. Multiple containers can be run on a single kernel
