@@ -26,14 +26,14 @@ Types:
 # References
 ## January 2021
 - (GEN-EDU) [Why Use Docker? By ActiveLAMP](https://www.youtube.com/watch?v=SYozbyvsP8A)
-  -**Context**: Need to understand what Docker is, what it's difference is with kubernetes, and why it's important?
-  -**Helped**: Explains why Docker is useful in a world where scalability is important. Docker gives you the ability to containerize your services and provide easy deployment and management of them. Multiple containers can be run on a single kernel
+  - **Context**: Need to understand what Docker is, what it's difference is with kubernetes, and why it's important?
+  - **Helped**: Explains why Docker is useful in a world where scalability is important. Docker gives you the ability to containerize your services and provide easy deployment and management of them. Multiple containers can be run on a single kernel
 - (GEN-EDU) [What is Kubernetes? By Google](https://www.youtube.com/watch?v=cC46cg5FFAM)
-  -**Context**: Needed to understand how Kubernetes interacts with a general cloud architecture
-  -**Helped**: Provided the key overview of Kubernetes being the "container orchestrator", similar to a conductor in a orchestra. Kubernetes gives you the ability to automate and manage your countainers across a cluster of nodes on the cloud (e.g container provisoning, networking, etc.)
+  - **Context**: Needed to understand how Kubernetes interacts with a general cloud architecture
+  - **Helped**: Provided the key overview of Kubernetes being the "container orchestrator", similar to a conductor in a orchestra. Kubernetes gives you the ability to automate and manage your countainers across a cluster of nodes on the cloud (e.g container provisoning, networking, etc.)
 - (DE-REF) [Cheapest Spark RDD Action Operation (hint: it's `first()` but it might not always be what you need)](https://stackoverflow.com/questions/42272800/what-is-best-or-most-lightweight-efficient-cheapest-rdd-action-to-perform-on-hug#:~:text=1%20Answer&text=answer%20was%20accepted%E2%80%A6-,rdd.,materialize%20all%20partitions%20is%20rdd.)
-  -**Context**: Needed to conduct an action to increment a accumulator, but wanted to not use something as expensive as `collect()` or `count()`
-  -**Helped**: Showed me `first()` but also warned of why its not always a one-size-fit all cheap operation
+  - **Context**: Needed to conduct an action to increment a accumulator, but wanted to not use something as expensive as `collect()` or `count()`
+  - **Helped**: Showed me `first()` but also warned of why its not always a one-size-fit all cheap operation
 - (DE-EDU) [High-Level Overview of RDD Transformations vs. Action Operations](https://medium.com/@aristo_alex/how-apache-sparks-transformations-and-action-works-ceb0d03b00d0)
   - **Context**: Refresher on how RDD operations work
   - **Helped**: Overview on how Transformations are when we 'change an RDD' into a new one within each individual executor, Actions have executors compute a result and return it to the driver. It also reviews that Transformations are lazy. Transformations will not be done until an action is called, thus all transformations before it will be done such that the action can be performed
