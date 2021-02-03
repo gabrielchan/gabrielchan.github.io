@@ -24,6 +24,10 @@ Types:
 - THT: Good thought piece
 
 # References
+## Feburary 2021
+- (DE-EDU) [What is a Data Pipeline](https://www.xplenty.com/blog/what-is-a-data-pipeline/)
+  - **Context**: Needed a formal understanding of a data pipeline, key operations, and terminonlogy
+  - **Helped**: This article gave a high-level overview of how a data pipeline is structured, data lake vs data warehouse, and key attributes
 ## January 2021
 - (DE-EDU) [Spark - Introduciton to Partitioning](https://www.talend.com/blog/2018/03/05/intro-apache-spark-partitioning-need-know/)
   - **Context**: Wanted to understand the default partitioning behaviour and why Spark isn't automatically optimal
