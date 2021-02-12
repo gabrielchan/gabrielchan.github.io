@@ -25,6 +25,12 @@ Types:
 
 # References
 ## Feburary 2021
+- (DE-EDU) [What makes a subnet Public vs Private?](https://stackoverflow.com/questions/48830793/aws-vpc-identify-private-and-public-subnet)
+  - **Context**: See below
+  - **Helped**: In short, if the subnet has a route that leads to an internet gateway, it's public
+- (DE-EDU) [AWS EC2 Instance Public IP](https://stackoverflow.com/questions/26706683/ec2-t2-micro-instance-has-no-public-dns)
+  - **Context**: EC2 instance spun up by Terraform isn't being assigned a Public IP even though it's being explictly told too
+  - **Helped**: Indicated that a VPC on a Private Subnet can never have a public IP
 - (DE-EDU) [What is a Data Pipeline](https://www.xplenty.com/blog/what-is-a-data-pipeline/)
   - **Context**: Needed a formal understanding of a data pipeline, key operations, and terminonlogy
   - **Helped**: This article gave a high-level overview of how a data pipeline is structured, data lake vs data warehouse, and key attributes
