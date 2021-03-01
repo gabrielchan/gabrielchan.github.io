@@ -24,6 +24,8 @@ Types:
 - THT: Good thought piece
 
 # References
+## March 2021
+- (DE-EDU) [Options to Process a Pandas DataFrame](https://stackoverflow.com/questions/16476924/how-to-iterate-over-rows-in-a-dataframe-in-pandas)
 ## Feburary 2021
 - (DE-EDU) [What makes a subnet Public vs Private?](https://stackoverflow.com/questions/48830793/aws-vpc-identify-private-and-public-subnet)
   - **Context**: See below
