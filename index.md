@@ -25,7 +25,15 @@ Types:
 
 # References
 ## March 2021
+- (GEN-EDU): [Binary Heaps in Python by NoobCoder](https://www.youtube.com/watch?v=hkyzcLkmoBY)
+  - **Context**: Needed a data structure that would allow me to track a max item of a list without needing to spend O(nlog(n)) just to sort and maintain a max/min each time. A priority queue / max-heap suits this scenario
+  - **Helped**: Very educational walkthrough (and refresher from Academia) of the data structure
+- (GEN-REF): [Python3 Floor Division vs Regular Division](https://stackoverflow.com/questions/49282799/python-3-int-division-operator-is-returning-a-float)
+  - **Context**: Py3 `int/int` division returned a float
+  - **Helped**: Provided tech reference of why `/` will return a float. If you want to maintain the type you should use **Floor Division `a//b == floor(a/b)`** instead. This will also maintain typing
 - (DE-EDU) [Options to Process a Pandas DataFrame](https://stackoverflow.com/questions/16476924/how-to-iterate-over-rows-in-a-dataframe-in-pandas)
+  - **Context**: Needed to understand how to iterate through rows in a Pandas DF
+  - **Helped**: Provided context of why iterating through a dataframe isn't reccomended, and why transformations are prefered from an optimization standpoint. In short - DataFrames can be very large and iterating through each row is an anti-pattern towards the efficiency that a DataFrame is suppose to bring
 ## Feburary 2021
 - (DE-EDU) [What makes a subnet Public vs Private?](https://stackoverflow.com/questions/48830793/aws-vpc-identify-private-and-public-subnet)
   - **Context**: See below
