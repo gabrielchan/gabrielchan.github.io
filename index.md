@@ -34,6 +34,7 @@ Types:
 - (DE-EDU) [Options to Process a Pandas DataFrame](https://stackoverflow.com/questions/16476924/how-to-iterate-over-rows-in-a-dataframe-in-pandas)
   - **Context**: Needed to understand how to iterate through rows in a Pandas DF
   - **Helped**: Provided context of why iterating through a dataframe isn't reccomended, and why transformations are prefered from an optimization standpoint. In short - DataFrames can be very large and iterating through each row is an anti-pattern towards the efficiency that a DataFrame is suppose to bring
+
 ## Feburary 2021
 - (DE-EDU) [What makes a subnet Public vs Private?](https://stackoverflow.com/questions/48830793/aws-vpc-identify-private-and-public-subnet)
   - **Context**: See below
@@ -44,6 +45,7 @@ Types:
 - (DE-EDU) [What is a Data Pipeline](https://www.xplenty.com/blog/what-is-a-data-pipeline/)
   - **Context**: Needed a formal understanding of a data pipeline, key operations, and terminonlogy
   - **Helped**: This article gave a high-level overview of how a data pipeline is structured, data lake vs data warehouse, and key attributes
+
 ## January 2021
 - (DE-EDU) [Spark - Introduciton to Partitioning](https://www.talend.com/blog/2018/03/05/intro-apache-spark-partitioning-need-know/)
   - **Context**: Wanted to understand the default partitioning behaviour and why Spark isn't automatically optimal
