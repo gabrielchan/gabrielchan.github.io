@@ -24,6 +24,13 @@ Types:
 - THT: Good thought piece
 
 # References
+## April 2021
+- (DE-END): [Spark Executor Cores and Memory by Spoddutur](https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application.html)
+  - **Context**: Understanding how Spark executor configuration works
+  - **Helped**: Provided a detailed outline of how to set this configuration, the "behind the scenes" services that need compute assigned for it to run well (e.g., hadoop, yarn, etc.)
+- (DE-EDU): [AWS Elastic Netowrk Interfaces Blog by Amazon](https://aws.amazon.com/blogs/aws/new-elastic-network-interfaces-in-the-virtual-private-cloud/)
+  - **Context**: For the AWS Solutions Architect Certification
+  - **Helped**: Provided additional explaination on what an ENI is. In short, like other aspects of AWS, its the ability to highly configure and move around a particular component - specifically IPs
 ## March 2021
 - (GEN-EDU): [Binary Heaps in Python by NoobCoder](https://www.youtube.com/watch?v=hkyzcLkmoBY)
   - **Context**: Needed a data structure that would allow me to track a max item of a list without needing to spend O(nlog(n)) just to sort and maintain a max/min each time. A priority queue / max-heap suits this scenario
