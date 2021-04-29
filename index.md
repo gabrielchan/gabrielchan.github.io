@@ -37,6 +37,7 @@ Types:
 - (DE-EDU): [AWS Elastic Netowrk Interfaces Blog by Amazon](https://aws.amazon.com/blogs/aws/new-elastic-network-interfaces-in-the-virtual-private-cloud/)
   - **Context**: For the AWS Solutions Architect Certification
   - **Helped**: Provided additional explaination on what an ENI is. In short, like other aspects of AWS, its the ability to highly configure and move around a particular component - specifically IPs
+
 ## March 2021
 - (GEN-EDU): [Binary Heaps in Python by NoobCoder](https://www.youtube.com/watch?v=hkyzcLkmoBY)
   - **Context**: Needed a data structure that would allow me to track a max item of a list without needing to spend O(nlog(n)) just to sort and maintain a max/min each time. A priority queue / max-heap suits this scenario
