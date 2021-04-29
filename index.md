@@ -25,7 +25,13 @@ Types:
 
 # References
 ## April 2021
-- (DE-END): [Spark Executor Cores and Memory by Spoddutur](https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application.html)
+- (GEN-EDU) [Python's Sequence Unpacking by Sadrach Pierre](https://towardsdatascience.com/sequence-unpacking-in-python-14d995f9a619)
+  - **Context**: Lead DS I'm working with used this but I didn't understand the syntax
+  - **Helped**: Gave a detailed overview of how sequence unpacking works, and some tricks such as unpacking a object within an object ("()"), ignoring something ("_"), and taking an arbitrary amount of stuff ("*")
+- (ML-EDU): [One-Hot Encoding by DeepLizard](https://www.youtube.com/watch?v=v_4KWmkwmsU)
+  - **Context**: A pipeline I am working with uses one-hot encoding
+  - **Helped**: Provided a high-level explaination of what one-hot encoding is. In short, it is representing categorical data that a ML model would often not understand into binary numbers that the model would understand. It converts it into a vector of length number of categories, where each value is either 0 or 1 depending on what the category is for a particular item
+- (DE-EDU): [Spark Executor Cores and Memory by Spoddutur](https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application.html)
   - **Context**: Understanding how Spark executor configuration works
   - **Helped**: Provided a detailed outline of how to set this configuration, the "behind the scenes" services that need compute assigned for it to run well (e.g., hadoop, yarn, etc.)
 - (DE-EDU): [AWS Elastic Netowrk Interfaces Blog by Amazon](https://aws.amazon.com/blogs/aws/new-elastic-network-interfaces-in-the-virtual-private-cloud/)
