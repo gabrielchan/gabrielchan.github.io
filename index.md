@@ -25,6 +25,9 @@ Types:
 
 # References
 ## April 2021
+- (ML-EDU) [Decision Tree Classifer by Google Developers](https://www.youtube.com/watch?v=LDRbO9a6XPU)
+  - **Context**: Existing model built uses a decision tree learning algorithmn
+  - **Helped**: Provided a great overview of the CART (Classification and Regression Trees) algorithm with sample code and examples. In short it recursively builds a tree by identifying the "best boolean question to ask" at a node on the tree to split the data set in two until all the data is identical (that is, *unmixed*). A leaf is then created saying what the % chance a given set of data equates to a label. It uses *Gini Impuirity* (if we were to randomly attempt to match between data and labels, what is our probability of guessing wrong) and *Information Gain* (`IG = gini_impurity(parent) - cumulative_avg(gini_impurity(true_child), gini_impurity(false_child))`. How much does a boolean question reduce the impurity)
 - (GEN-EDU) [Python's Sequence Unpacking by Sadrach Pierre](https://towardsdatascience.com/sequence-unpacking-in-python-14d995f9a619)
   - **Context**: Lead DS I'm working with used this but I didn't understand the syntax
   - **Helped**: Gave a detailed overview of how sequence unpacking works, and some tricks such as unpacking a object within an object ("()"), ignoring something ("_"), and taking an arbitrary amount of stuff ("*")
