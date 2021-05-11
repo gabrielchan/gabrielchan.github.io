@@ -25,6 +25,9 @@ Types:
 
 # References
 ## April 2021
+- (COMM-INT) [Setting KPIs for Internal Platform(s)/Product(s) by Willemdoesproduct](https://hackernoon.com/setting-kpis-for-platform-products-511m3zdg)
+  - **Context**: Provided by lead when coming up with success factors for a project
+  - **Helped**: Key takeaway is to focus on the time to conduct a standard BAU operation on the product
 - (ML-REF) [Class Labels in the Context of Supervised Learning / Classification by blazs](https://stackoverflow.com/questions/36362541/in-data-mining-what-is-a-class-label-please-give-an-example)
   - **Context**: Mathematical reference of a decision tree model referenced "class labels" when speaking to the probability of a given boolean when building the decision tree
   - **Helped**: Clarfied that a class label is essentially a discrete or categorical variable related to a given set of data (e.g., yes/no, true/false)
