@@ -25,6 +25,12 @@ Types:
 
 # References
 ## April 2021
+- (ML-EDU) [Randomized Search Cross Validation with Scikit-Learn](https://jamesrledoux.com/code/randomized_parameter_search)
+  - **Context**: Lead data scientist used randomized search as a method to tune a model's hyperparameter. This is a process intensive option so the ask was to see of the library `joblibspark` could let this function leverage a spark clustered back-end instead. Important to understand how Scikit-Learn's `RandomizedSearchCV()` function works first.
+  - **Helped**: Provided a detailed tutorial of how a basic Randomized Search works on a test data set (Iris data) and an overview of what hyperparamters are, what hyperparameter tuning is and why it's important
+- (SDLC-REF) [Git Switch for Pulling a Remote Branch](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
+  - **Context**: Needed to pull a remote branch that wasn't in my local and did not remember the steps (e.g., something like fetch then pull?)
+  - **Helped**: `git switch <remote_branch_name>` is a new git feature that would let you pull a remote branch, if it's not in your local it just creates its. Very handy for a quick pull. You also don't need to write "origin". [Official reference](https://git-scm.com/docs/git-switch)
 - (COMM-INT) [Setting KPIs for Internal Platform(s)/Product(s) by Willemdoesproduct](https://hackernoon.com/setting-kpis-for-platform-products-511m3zdg)
   - **Context**: Provided by lead when coming up with success factors for a project
   - **Helped**: Key takeaway is to focus on the time to conduct a standard BAU operation on the product
