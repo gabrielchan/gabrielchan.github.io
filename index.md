@@ -25,6 +25,7 @@ Types:
 
 # References
 ## May 2021
+- (ML-EDU) [General Tutorial on Basic ML Models and Tuning using iris data and scikit-learn](https://github.com/justmarkham/scikit-learn-videos)
 - (ML-EDU) [Randomized Search Cross Validation with Scikit-Learn](https://jamesrledoux.com/code/randomized_parameter_search)
   - **Context**: Lead data scientist used randomized search as a method to tune a model's hyperparameter. This is a process intensive option so the ask was to see of the library `joblibspark` could let this function leverage a spark clustered back-end instead. Important to understand how Scikit-Learn's `RandomizedSearchCV()` function works first.
   - **Helped**: Provided a detailed tutorial of how a basic Randomized Search works on a test data set (Iris data) and an overview of what hyperparamters are, what hyperparameter tuning is and why it's important
