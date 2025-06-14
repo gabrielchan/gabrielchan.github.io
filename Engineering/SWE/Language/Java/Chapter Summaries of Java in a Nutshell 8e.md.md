@@ -100,6 +100,7 @@ However **javac** is still considered _a compiler_, but just know that the resul
 |Object-oriented with functional programming features|Procedural language with support for OOP and functional programming|
 | True multithreading with native threads and concurrency APIs | Multithreading via `threading` module, but **limited by the Global Interpreter Lock (GIL)** in CPython |
 | Used for concurrent servers, high-performance backends       | More suited to I/O-bound concurrency using `asyncio` or multiprocessing for CPU-bound tasks            |
+| Encapsulated by `{}` | Tab-based |
 
 
 #### Similarities
@@ -120,6 +121,36 @@ A compiled language can be optimized in advance, but often requires heavier exec
 > This chapter explains the Java programming language in detail, including Java 8 features, serving as both a reference for experienced developers (especially those familiar with C/C++) and a learning resource for beginners when paired with an introductory text.
 
 *For personal purposes; this sections summary will only contain notes on non-trival syntaxual differences*
+
+## General Syntaxual Commentary
+
+
+## Other Loop Types (aside from `while` and `for`)
+### `do while`
+
+## `synchronize`
+
+## `assert`
+
+## Defining a Method
+### Method Signatures
+### Method Modifiers
+### Variable-Length Argument Lists
+
+## Classes and Objects
+
+## Java Lambda Function / Expression
+
+## Arrays
+- Cloneable
+
+## Reference Types vs Primitive Types
+## Boxing
+## Packages and Java Namespace
+## Importing Rules
+## Source File Structure
+## Running a Java File
+
 
 
 # Chapter 3
