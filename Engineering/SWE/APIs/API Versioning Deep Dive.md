@@ -93,5 +93,5 @@ Version Promiscuity
 - https://restfulapi.net/rest-api-best-practices/ (section 5)
 - https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#implement-versioning
 - https://cloud.google.com/blog/products/api-management/restful-api-design-tips-versioning?utm_source=chatgpt.com
-
+- https://www.baeldung.com/rest-versioning?
 # Summary
