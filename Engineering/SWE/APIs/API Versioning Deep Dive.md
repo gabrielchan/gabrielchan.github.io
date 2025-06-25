@@ -89,9 +89,18 @@ Key Questions to be Answered:
 - Header and Media Type work by having additional information in the *HTTP headers*, thus both the client and server must support it
 
 ## Pitfalls
-**Version Lock**:
+**Version Lock**:  version lock occurs when you specify overly strict version constraints—such as exact pins or tightly bounded ranges—so that upgrading a dependency (even for a bugfix or patch) requires releasing a new version of your own project, and often forces updates across all dependent packages. In essence “the inability to upgrade a package without having to release new versions of every dependent package.”
 
-**Version Promiscuity**:
+**Version Promiscuity**: Using overly loose version constraints (like wildcards or unbounded ranges), allowing a project to accept future dependency versions that aren't guaranteed to be compatible. This approach can expose your code to untested changes, leading to runtime failures, build breakages, or subtle bugs when dependencies evolve
+
+Solutions:
+- Semantic Versioning (SemVer) clarifies when updating (major/minor/patch) is safe.
+- Lock files freeze actual dependency trees for reproducibility.
+
+Together, they help you:
+- Use version ranges based on SemVer.
+- Lock the resolved, tested versions in a lockfile.
+- Periodically and consciously update dependencies (via tools like Dependabot, Renovate) with testing.
 
 # Sources
 - https://restfulapi.net/rest-api-best-practices/ (section 5)
