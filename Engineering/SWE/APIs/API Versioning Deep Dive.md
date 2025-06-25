@@ -81,13 +81,17 @@ Key Questions to be Answered:
     - Large-scale or enterprise APIs that demand strict version control and content negotiation capabilities
 
 ### Java Spring Implementation High-Level Notes/Differences
-- URI Versioning requires a `@RestController` per version
-- Query String, Header, and Media Type has a unique `@GetMapping` per version under the same `@RestController`
+- URI Versioning can be done via:
+    - `@RestController` per version via a unique `@RequestMapping("/api/v1/resource")`
+    - In the `@GetMapping("/api/v2/resource/")` under a single `@restController`; typically without a mapping
+    - Generally it seems like Controller per version is recommended
+- Query String, Header, and Media Type has a unique `@GetMapping("/api/v2/resource/")` per version under the same `@RestController`
 - Header and Media Type work by having additional information in the *HTTP headers*, thus both the client and server must support it
 
 ## Pitfalls
-Version Lock
-Version Promiscuity
+**Version Lock**:
+
+**Version Promiscuity**:
 
 # Sources
 - https://restfulapi.net/rest-api-best-practices/ (section 5)
